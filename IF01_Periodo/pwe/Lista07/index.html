@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="action_page.php">
+        <fieldset>
+            <legend>Informação pessoais</legend>
+
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome"> <br>
+
+            <br>
+
+            <label for="sexo">Sexo:</label>
+            <br>
+            <input type="radio" id="genero1" name="genero">
+            <label for="genero1">Masculino</label>
+            <br>
+            <input type="radio" id="genero2" name="genero">
+            <label for="genero2">Feminino</label>
+
+            <br> <br>
+
+            <label for="estado_civil">Estado Civil:</label>
+            <select name="estado_civil">
+                <option value="solterio">Solterio(a)</option>
+                <option value="casado">Casado(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+                <option value="viuvo">Viúvo(a)</option>
+            </select>
+
+            <br> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="email@email.com">
+
+            <br> <br>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text">
+
+            <br> <br>
+
+            <label for="num_endereço">Número:</label>
+            <input type="number" min="1">
+
+            <br> <br>
+
+            <label for="data_nascimento">Data de nascimento:</label>
+            <input type="date">
+
+            <br> <br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" placeholder="(99)9999-9999">
+
+            <br> <br>
+
+            <label for="page">Página pessoal:</label>
+            <input type="url" placeholder="http://site.com">
+
+            <br> <br>
+
+            <input type="submit" value="Enivar">
+            <input type="reset" value="Limpar">
+
+        </fieldset>
+    </form>
+</body>
+</html>
