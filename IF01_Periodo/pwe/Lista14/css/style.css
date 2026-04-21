@@ -1,0 +1,13 @@
+li {
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(163, 163, 163);
+}
+
+ul {
+    background-color: rgb(233, 245, 123);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
